@@ -1,4 +1,5 @@
-// Function to add two numbers
+const CustomAlert = require('./src/alerts/alert1');
+
 function addNumbers(a, b) {
     return a + b;
   }
@@ -13,11 +14,14 @@ function addNumbers(a, b) {
     const reversedStr = reverseString(str);
     return str === reversedStr;
   }
-  
+  function showCustomAlert(message) {
+    CustomAlert(message);
+  }
   // Exporting the functions to be used as an npm package
   module.exports = {
     addNumbers,
     reverseString,
     isPalindrome,
+    showCustomAlert,
   };
   
