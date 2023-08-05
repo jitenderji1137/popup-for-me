@@ -1,0 +1,18 @@
+{
+  "name": "popup-for-me",
+  "version": "1.1.0",
+  "description": "popups",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jitenderji1137/popup-for-me.git"
+  },
+  "keywords": [
+    "popup"
+  ],
+  "author": "jitenderji1137",
+  "license": "ISC"
+}
